@@ -22,7 +22,7 @@
       "id": "localclock",
       "name": "Local Clock",
       "description": "A MCP server that will return the local date and time of the client.",
-      "url": "https://github.com/wtrsltnk/local-clock-mcp-server/archive/refs/heads/main.zip",
+      "url": "https://github.com/wtrsltnk/local-clock-mcp-server/archive/refs/heads/master.zip",
       "runCommand": {
         "type": "stdio",
         "command": "dotnet",
@@ -31,7 +31,7 @@
           "--project",
           "-v",
           "q",
-          "${ServerPath}\\local-clock-mcp-server-main\\LocalClockMcpServer"
+          "${ServerPath}\\local-clock-mcp-server-master\\LocalClockMcpServer"
         ]
       }
     }
