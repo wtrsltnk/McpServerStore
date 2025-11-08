@@ -1,0 +1,18 @@
+{
+  "name": "MCP Server Store",
+  "servers": [
+    {
+      "name": "Windows Performance",
+      "description": "A MCP server will return Windows performance statistics from the current Windows machine.",
+      "url": "https://github.com/wtrsltnk/WindowsPerformanceMcpServer"
+      "runCommand": {
+        "command": "dotnet",
+        "args": [
+          "run",
+          "--project",
+          "${ServerPath}\WindowsPerformanceMcpServer\WindowsPerformanceMcpServer.csproj"
+        ]
+      }
+    }
+  ]
+}
