@@ -5,7 +5,7 @@
       "id": "windowsperformance",
       "name": "Windows Performance",
       "description": "A MCP server will return Windows performance statistics from the current Windows machine.",
-      "url": "https://github.com/wtrsltnk/WindowsPerformanceMcpServer/archive/refs/heads/main.zip",
+      "url": "https://github.com/wtrsltnk/windows-performance-mcp-server/archive/refs/heads/main.zip",
       "runCommand": {
         "type": "stdio",
         "command": "dotnet",
@@ -14,7 +14,24 @@
           "--project",
           "-v",
           "q",
-          "${ServerPath}\\WindowsPerformanceMcpServer-main\\WindowsPerformanceMcpServer"
+          "${ServerPath}\\windows-performance-mcp-server-main\\WindowsPerformanceMcpServer"
+        ]
+      }
+    },
+    {
+      "id": "localclock",
+      "name": "Local Clock",
+      "description": "A MCP server that will return the local date and time of the client.",
+      "url": "https://github.com/wtrsltnk/local-clock-mcp-server/archive/refs/heads/main.zip",
+      "runCommand": {
+        "type": "stdio",
+        "command": "dotnet",
+        "args": [
+          "run",
+          "--project",
+          "-v",
+          "q",
+          "${ServerPath}\\local-clock-mcp-server-main\\LocalClockMcpServer"
         ]
       }
     }
