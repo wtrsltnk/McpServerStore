@@ -12,6 +12,8 @@
         "args": [
           "run",
           "--project",
+          "-v",
+          "q",
           "${ServerPath}\\WindowsPerformanceMcpServer-main\\WindowsPerformanceMcpServer"
         ]
       }
