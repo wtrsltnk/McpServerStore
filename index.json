@@ -12,9 +12,9 @@
         "args": [
           "run",
           "--project",
+          "${ServerPath}\\windows-performance-mcp-server-main\\WindowsPerformanceMcpServer",
           "-v",
-          "q",
-          "${ServerPath}\\windows-performance-mcp-server-main\\WindowsPerformanceMcpServer"
+          "q"
         ]
       }
     },
@@ -29,9 +29,9 @@
         "args": [
           "run",
           "--project",
+          "${ServerPath}\\local-clock-mcp-server-master\\LocalClockMcpServer",
           "-v",
-          "q",
-          "${ServerPath}\\local-clock-mcp-server-master\\LocalClockMcpServer"
+          "q"
         ]
       }
     }
